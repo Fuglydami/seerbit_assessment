@@ -12,8 +12,8 @@ const CardComponent = ({ items }) => {
         />
         <div className="flex justify-between pt-5">
           <div className="">
-            <p className="font-medium text-2xl">{name}</p>
-            <p className="text-xl grey">{amount}</p>
+            <p className="font-medium md:text-2xl text-xl">{name}</p>
+            <p className="md:text-xl text-lg grey">{amount}</p>
           </div>
           <div className="flex flex-col justify-between">
             <img src={heart_icon} alt="heart_icon" />

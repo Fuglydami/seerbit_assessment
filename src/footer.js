@@ -12,7 +12,7 @@ const Footer = () => {
           <span className={span}>Contact</span> /{" "}
           <span className={span}>Privacy Policy</span>
         </p>
-        <div className="flex items-center justify-center text-white text-gray-400 ">
+        <div className="flex items-center justify-center text-xs md:text-base text-white text-gray-400 ">
           <span className={span}>Fb</span> / <span className={span}>In</span> /{" "}
           <span className={span}>Yt</span> / <span className={span}>Tw</span>
         </div>
